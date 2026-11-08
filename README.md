@@ -5,6 +5,8 @@
 [![Target Title ID](https://img.shields.io/badge/Switch%20Title%20ID-0100E67012924000-blue.svg)](https://www.thewitcher.com/)
 [![License](https://img.shields.io/badge/License-GPLv3%2FMIT-yellow.svg)](LICENSE)
 
+### Note: This project is entirely made by gemini, with me testing the game on my phone. 
+
 A high-performance native port of **The Witcher 3: Wild Hunt** (Nintendo Switch edition) to 64-bit ARM Android devices.
 
 Unlike traditional emulation, this project executes the original Nintendo Switch AArch64 machine instructions **directly on the phone's ARM64 CPU** with zero CPU emulation overhead. Switch system services (Horizon OS) are handled via High-Level Emulation (HLE), and proprietary NVN graphics calls are translated directly into modern Vulkan hardware commands.
