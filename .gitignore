@@ -1,0 +1,89 @@
+# ==============================================================================
+# The Witcher 3: Wild Hunt - Android Port .gitignore
+# ==============================================================================
+
+# Build artifacts & outputs
+build/
+out/
+dist/
+host/
+host-debug/
+gen/
+obj/
+*.o
+*.d
+*.so
+*.apk
+*.a
+*.elf
+
+# Proprietary Nintendo Switch / Commercial Game Assets
+# NEVER COMMIT COPYRIGHTED GAME DUMPS OR KEYS
+RomFS/
+romfs/
+ExeFS/
+exefs/
+[Rr]om[Ff][Ss]/
+[Ee]xe[Ff][Ss]/
+*.nsp
+*.xci
+*.nsz
+*.xcz
+*.nca
+*.nso
+*.nro
+*.bin
+*.patched.bin
+prod.keys
+title.keys
+*.keys
+
+# Shaders & Translation Caches
+*.dmsv
+*.spv
+captured_shaders/
+captured_shaders_device/
+*.spirv
+
+# Signing keys & user configurations
+*-signing-key.json
+probe-signing-key.json
+*.keystore
+*.jks
+/devtools/device.json
+
+# Toolchains, Local SDKs & Game Dumps
+/tools/
+/work/
+/.gamedump/
+/.venv/
+env/
+venv/
+
+# Logs & Tomlstones
+*.log
+tombstone*
+crash_*.txt
+*.stackdump
+
+# Media & Recordings
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
