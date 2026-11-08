@@ -5,7 +5,7 @@
 [![Target Title ID](https://img.shields.io/badge/Switch%20Title%20ID-0100E67012924000-blue.svg)](https://www.thewitcher.com/)
 [![License](https://img.shields.io/badge/License-GPLv3%2FMIT-yellow.svg)](LICENSE)
 
-### Note: This project is entirely made by gemini, with me testing the game on my phone. 
+### Note: This project is entirely made by gemini, with me testing the game on my phone. The game is in a very rough stage, it doesn't even load into kear morhen right now.
 
 A high-performance native port of **The Witcher 3: Wild Hunt** (Nintendo Switch edition) to 64-bit ARM Android devices.
 
